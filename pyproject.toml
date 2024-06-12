@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "vector-demo"
+version = "0.1.0"
+description = ""
+authors = ["huseyinbabal <huseyinbabal88@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-cohere = "^0.1.5"
+langchain-postgres = "^0.0.6"
+langchain-community = "^0.2.4"
+beautifulsoup4 = "^4.12.3"
+html2text = "^2024.2.26"
+langchain-experimental = "^0.0.60"
+tiktoken = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
